@@ -13,13 +13,13 @@ from pathlib import Path
 __version__ = '1.1.1'
 
 SAVEFILE_NAME = ['CCGameManager.dat', 'CCLocalLevels.dat', 'CCGameManager2.dat', 'CCLocalLevels2.dat']
-SAVEFILE_PATH = Path(os.getenv('LocalAppData')) / 'GeometryDash'
+SAVEFILE_PATH = Path(os.getenv('LocalAppData')) / 'VPS'
 
 
 def main():
     print(dedent(
         f"""\
-        Geometry Dash Savefile Fix v{__version__} by WEGFan
+        VPS Savefile Fix v{__version__} by WEGFan (Fixed for VPS by Dark)
 
         This tool can fix most problems caused unable to open the game by the savefiles.
         (which is the game will only launch if you move the savefiles to other folders)
